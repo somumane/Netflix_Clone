@@ -1,0 +1,46 @@
+.SignUp{
+    max-width:600px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:20px 70px 20px 70px;   
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0,0,0,0.85);
+}
+.SignUp > form > h2{
+    margin-bottom: 30px;
+    font-size: 2rem;
+    text-align: left;
+    color: #e50914;
+}
+
+.SignUp > form > h4{
+    text-align: left;
+    margin-top: 30px;
+    font-size: 0.8rem;
+}
+.SignUp > form{
+    display: grid;
+    flex-direction: column;
+}
+.SignUp > form >input{
+    padding: 10px;
+    outline-width: 0;
+    height: 25px;
+    margin-bottom: 14px;
+    border-radius:5px;
+    border: none;
+    max-width: 500px;
+}
+.SignUp > form >button{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    border-radius: 5px;
+    background-color: #e50914;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.SignUp > form >button:hover{
+    background-color: #db2f38;
+}

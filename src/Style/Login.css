@@ -1,0 +1,177 @@
+.loginScreen{
+    position: relative;
+    height: 100%;
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/42df4e1f-bef6-499e-87ff-c990584de314/5e7c383c-1f88-4983-b4da-06e14c0984ba/IN-en-20230904-popsignuptwoweeks-perspective_alpha_website_large.jpg") center no-repeat;
+    background-size: cover;
+
+}
+.loginScreenlogo{
+    position: fixed;
+    left: 0;
+    width: 140px;
+    padding: 10px;
+}
+.signin_button{
+    position: fixed;
+    right: 30px;
+    top: 30px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.signin_button:hover{
+    background-color: #db2f38;
+    
+}
+.finishup{
+    padding: 10px 20px;
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 400;
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    transition: 0.5s;
+    cursor: pointer;
+    height: 80px;
+    width: 300px;
+    margin: 60px;
+}
+.finishup:hover{
+    background-color: #db2f38;
+    
+}
+.gradient{
+    width: 100%;
+    z-index: 1;
+    height: 60vw;
+    background-color: rgba(0, 0,0,0.4);
+    /* adding to background image looks awsome */
+    background-image: linear-gradient(
+       to top,
+       rgba(0,0,0,0.8)0,
+       rgba(0,0,0,0)60%,
+       rgba(0,0,0,0.8)100%
+    );
+
+}
+.loginScreenbody{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: auto;
+    max-width: calc(100% - 3rem);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.loginfooter{
+    height: 15rem;
+    background-image: linear-gradient(180deg,transparent,
+    rgba(37,37,37,0.61),#111);
+}
+.loginScreeninput > form > input{
+    padding: 10px;
+    outline-width:0;
+    height: 30px;
+    width: 50%;
+    max-width: 600px;
+    border: none; 
+}
+.loginScreeninput{
+    margin: 20px;
+}
+.startbutton{
+    padding: 16px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #e50914;
+    border: none;
+    cursor: pointer;
+    
+}
+.startbutton:hover{
+    background-color: #db2f38;
+}
+
+
+@media(300px<= width <=600px){
+    .gradient{
+        width: 100%;
+        z-index: 1;
+        height: 250vw;
+        background-color: rgba(0, 0,0,0.4);
+        /* adding to background image looks awsome */
+        background-image: linear-gradient(
+           to top,
+           rgba(0,0,0,0.8)0,
+           rgba(0,0,0,0)60%,
+           rgba(0,0,0,0.8)100%
+        );}
+        .loginScreenbody{
+            position: absolute;
+            top: 30%;
+            z-index: 1;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin-left:auto;
+            margin-right:auto;
+            font-size: 1.3rem;
+            
+        }
+        .finishup{
+     padding: 5px 10px;
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 400;
+    background-color: #e50914;
+    border: none;
+    border-radius: 4px;
+    transition: 0.5s;
+    cursor: pointer;
+    height: 40px;
+    width: 150px;
+    margin: 30px;
+        }
+        .loginScreeninput{
+            margin: 10px;
+        }
+        .loginScreeninput > form > input{
+            padding: 10px;
+            outline-width:0;
+            height: 20px;
+            width: 50%;
+            max-width:1000px;
+            border: none; 
+        }
+        .startbutton{
+            padding: 11px 15px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #e50914;
+            border: none;
+            
+        }
+
+    }
